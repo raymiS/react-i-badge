@@ -1,0 +1,14 @@
+// 20190127124135
+// https://raw.githubusercontent.com/ableco/sr-independencia/a033fbfd7bb9fa3c100cfc3c615f3f8b464799a3/.babelrc?token=AdmtdWUTGBzCn-TakfIwkNPTiEMAFMw1ks5cVyfPwA%3D%3D
+
+{
+  "presets": ["react-app"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"]
+      }
+    ]
+  ]
+}
