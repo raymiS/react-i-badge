@@ -14,7 +14,11 @@
     "eject": "react-scripts eject"
   },
   "quokka": {
-    "babel": true
+    "babel": {
+      "presets": [
+        "react-app"
+      ]
+    }
   },
   "eslintConfig": {
     "extends": "react-app"
