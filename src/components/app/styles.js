@@ -6,7 +6,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background-color: black;
+    background-color: #002340;
     font-size: 16px;
     overflow-x: hidden;
   }
@@ -60,8 +60,27 @@ export const GlobalStyles = createGlobalStyle`
 `;
 
 export const App = styled.div`
-  background: black;
   color: white;
   position: relative;
   font-size: 2em;
+  width: 1200px;
+  margin: 0 auto;
+`;
+
+export const Exercises = styled.div`
+  display: flex;
+  margin-top: 3em;
+`;
+
+export const ExerciseOne = styled.div`
+  background: #004d8c;
+  margin-right: 3em;
+  padding: 2em;
+  border-radius: 5px;
+`;
+
+export const ExerciseTwo = styled.div`
+  background: #8c5500;
+  padding: 2em;
+  border-radius: 5px;
 `;
